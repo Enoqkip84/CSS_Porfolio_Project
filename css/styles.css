@@ -198,7 +198,7 @@ Navbar
   color: var(--clr-primary-5);
   font-size: 2rem;
   cursor: pointer;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   justify-self: end;
 }
 /*
