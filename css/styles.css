@@ -173,7 +173,7 @@ Navbar
 */
 .nav-links {
   display: none;
-  display: contents;
+  /* display: contents; */
 }
 .nav {
   height: 5rem;
