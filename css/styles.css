@@ -214,6 +214,7 @@ Navbar
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     column-gap: 2rem;
+    justify-self: end;
   }
   .nav-links a {
     text-transform: capitalize;
@@ -224,6 +225,11 @@ Navbar
   }
   .nav-links a:hover {
     color: var(--clr-primary-5);
+  }
+  .nav-center {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
   }
 }
 /*
