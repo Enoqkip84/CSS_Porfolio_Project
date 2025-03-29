@@ -202,6 +202,12 @@ Navbar
   /* justify-content: space-between; */
   justify-self: end;
 }
+@media screen and (min-width: 768px) {
+  .nav {
+    background: var(--clr-primary-10);
+    /* background: black; */
+  }
+}
 /*
 =============== 
 Sidebar
