@@ -209,6 +209,22 @@ Navbar
   .nav-btn {
     display: none;
   }
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    column-gap: 2rem;
+  }
+  .nav-links a {
+    text-transform: capitalize;
+    color: var(--clr-grey-1);
+    font-weight: bold;
+    letter-spacing: var(--spacing);
+    transition: var(--transition);
+  }
+  .nav-links a:hover {
+    color: var(--clr-primary-5);
+  }
 }
 /*
 =============== 
