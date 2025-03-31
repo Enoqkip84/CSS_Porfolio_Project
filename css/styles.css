@@ -317,7 +317,7 @@ Hero
 ===============
 */
 .hero {
-  background: red;
+  /* background: green; */
   min-height: 130vh;
 }
 
