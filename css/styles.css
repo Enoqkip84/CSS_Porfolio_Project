@@ -343,6 +343,20 @@ Hero
 .hero-btn {
   margin-top: 1.25rem;
 }
+@media screen and (min-width: 992px) {
+  .hero-img {
+    display: block;
+  }
+  .hero-center {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero-photo {
+    max-width: 25rem;
+    max-height: 30rem;
+    object-fit: cover;
+    border-radius: var(--radius);
+  }
+}
 /*
 =============== 
 About
