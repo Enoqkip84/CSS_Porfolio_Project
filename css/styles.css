@@ -264,10 +264,16 @@ Sidebar
   color: var(--clr-grey-5);
   letter-spacing: var(--spacing);
   display: inline-block;
-  margin-bottom: 1.5 rem;
+  margin-bottom: 1.5rem;
 }
 .sidebar-links a:hover {
   color: var(--clr-primary-5);
+}
+.social-icons {
+  display: grid;
+  margin-top: 3rem;
+  width: 14rem;
+  grid-template-columns: repeat(5, 1fr);
 }
 /*
 =============== 
