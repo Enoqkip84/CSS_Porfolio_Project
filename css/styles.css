@@ -346,6 +346,7 @@ Hero
 @media screen and (min-width: 992px) {
   .hero-img {
     display: block;
+    position: relative;
   }
   .hero-center {
     grid-template-columns: 1fr 1fr;
