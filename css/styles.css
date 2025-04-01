@@ -346,7 +346,6 @@ Hero
 @media screen and (min-width: 992px) {
   .hero-img {
     display: block;
-    position: relative;
   }
   .hero-center {
     grid-template-columns: 1fr 1fr;
@@ -356,6 +355,7 @@ Hero
     /* max-height: 30rem; */
     object-fit: cover;
     border-radius: var(--radius);
+    position: relative;
   }
   .hero-img::before {
     content: '';
