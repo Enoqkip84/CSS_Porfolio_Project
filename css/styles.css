@@ -475,7 +475,17 @@ Services
 Projects
 ===============
 */
-
+.projects-text {
+  width: 85%;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+.project {
+  position: relative;
+  background: var(--clr-primary-5);
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+}
 /*
 =============== 
 Connect
