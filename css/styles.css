@@ -447,9 +447,17 @@ Services
 }
 .service:hover {
   background: var(--clr-primary-5);
-  color: var(--clr-primary-2);
+  /* color: var(--clr-primary-2); */
 }
-
+.service:hover p {
+  color: var(--clr-white);
+}
+.service:hover h4 {
+  color: var(--clr-white);
+}
+.service:hover .underline {
+  background: var(--clr-white);
+}
 /*
 =============== 
 Projects
